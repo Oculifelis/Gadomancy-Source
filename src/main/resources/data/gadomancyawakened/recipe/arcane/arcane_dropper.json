@@ -1,0 +1,36 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 14
+    },
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 14
+    },
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 10
+    }
+  ],
+  "key": {
+    "S": "thaumaturge:stone_arcane_brick",
+    "D": "minecraft:dropper",
+    "A": "thaumaturge:alchemical_construct",
+    "B": "thaumaturge:bellows"
+  },
+  "pattern": [
+    "SDS",
+    "BAB",
+    "SSS"
+  ],
+  "research": {
+    "entry": "gadomancyawakened:arcane_dropper",
+    "stage": 0
+  },
+  "result": {
+    "id": "gadomancyawakened:arcane_dropper"
+  },
+  "vis": 30
+}

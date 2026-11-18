@@ -1,0 +1,49 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:aversio",
+      "amount": 28
+    },
+    {
+      "aspect": "thaumaturge:potentia",
+      "amount": 34
+    },
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 30
+    },
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 14
+    }
+  ],
+  "catalyst": "thaumaturge:runed_tablet",
+  "components": [
+    "thaumaturge:essentia_crystal",
+    "thaumaturge:amber",
+    "thaumaturge:primal_charm",
+    "thaumaturge:essentia_crystal",
+    "thaumaturge:void_seed",
+    "thaumaturge:amber_block",
+    "thaumaturge:essentia_crystal",
+    "thaumaturge:amber",
+    "thaumaturge:primal_charm",
+    "thaumaturge:essentia_crystal",
+    "thaumaturge:void_seed",
+    "thaumaturge:amber_block"
+  ],
+  "instability": 10,
+  "research": {
+    "entry": "gadomancyawakened:familiar_damage"
+  },
+  "result": {
+    "id": "gadomancyawakened:familiar_augment",
+    "components": {
+      "gadomancyawakened:augment": {
+        "augment": "damage",
+        "level": 2
+      }
+    }
+  }
+}

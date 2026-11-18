@@ -1,0 +1,45 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:mortuus",
+      "amount": 18
+    },
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 6
+    },
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 18
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 8
+    }
+  ],
+  "catalyst": "thaumaturge:runed_tablet",
+  "components": [
+    "thaumaturge:essentia_crystal",
+    "minecraft:dead_bush",
+    "thaumaturge:essentia_crystal",
+    "minecraft:string",
+    "thaumaturge:essentia_crystal",
+    "minecraft:dead_bush",
+    "thaumaturge:essentia_crystal",
+    "minecraft:string"
+  ],
+  "instability": 6,
+  "research": {
+    "entry": "gadomancyawakened:familiar_weakness"
+  },
+  "result": {
+    "id": "gadomancyawakened:familiar_augment",
+    "components": {
+      "gadomancyawakened:augment": {
+        "augment": "weakness",
+        "level": 1
+      }
+    }
+  }
+}

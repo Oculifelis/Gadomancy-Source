@@ -1,0 +1,14 @@
+{
+  "aspect": "thaumaturge:ordo",
+  "interval": 8,
+  "range": 8,
+  "actions": [
+    {
+      "type": "mob_effect",
+      "effect": "minecraft:regeneration",
+      "amplifier": 0,
+      "add": 6,
+      "cap": 3600
+    }
+  ]
+}

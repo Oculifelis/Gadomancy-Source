@@ -1,0 +1,14 @@
+{
+  "aspect": "thaumaturge:vitium",
+  "interval": 8,
+  "range": 8,
+  "actions": [
+    {
+      "type": "mob_effect",
+      "effect": "thaumaturge:flux_taint",
+      "amplifier": 0,
+      "add": 6,
+      "cap": 1200
+    }
+  ]
+}

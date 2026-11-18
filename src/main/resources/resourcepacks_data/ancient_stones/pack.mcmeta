@@ -1,0 +1,13 @@
+{
+  "pack": {
+    "description": "Gadomancy Awakened: ancient stone recipes",
+    "min_format": [
+      101,
+      0
+    ],
+    "max_format": [
+      101,
+      1
+    ]
+  }
+}

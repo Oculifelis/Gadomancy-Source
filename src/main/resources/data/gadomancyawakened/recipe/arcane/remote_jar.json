@@ -1,0 +1,34 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 6
+    }
+  ],
+  "key": {
+    "G": "#c:ingots/gold",
+    "M": "thaumaturge:mirrored_glass",
+    "J": "thaumaturge:jar_normal"
+  },
+  "pattern": [
+    "GMG",
+    "GJG"
+  ],
+  "research": {
+    "entry": "gadomancyawakened:remote_jar",
+    "stage": 0
+  },
+  "result": {
+    "id": "gadomancyawakened:remote_jar"
+  },
+  "vis": 40
+}

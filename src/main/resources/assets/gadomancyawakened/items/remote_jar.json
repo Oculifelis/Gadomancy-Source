@@ -1,0 +1,18 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:model",
+        "model": "gadomancyawakened:block/remote_jar"
+      },
+      {
+        "type": "minecraft:special",
+        "base": "gadomancyawakened:block/remote_jar",
+        "model": {
+          "type": "thaumaturge:jar"
+        }
+      }
+    ]
+  }
+}

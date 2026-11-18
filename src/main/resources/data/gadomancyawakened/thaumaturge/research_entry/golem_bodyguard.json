@@ -1,0 +1,54 @@
+{
+  "category": "gadomancyawakened:gadomancyawakened",
+  "name": "research.gadomancyawakened.golem_bodyguard.title",
+  "parents": [
+    "thaumaturge:golem_combat_adv"
+  ],
+  "column": -1,
+  "row": 1,
+  "icons": [
+    "gadomancyawakened:bodyguard_badge"
+  ],
+  "stages": [
+    {
+      "text": "research.gadomancyawakened.golem_bodyguard.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:golemancy",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:golemancy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.gadomancyawakened.golem_bodyguard.stage_1",
+      "recipes": [
+        "gadomancyawakened:arcane/bodyguard_badge"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:humanus",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:praemunio",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:motus",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 3
+    }
+  ],
+  "complexity": 2
+}

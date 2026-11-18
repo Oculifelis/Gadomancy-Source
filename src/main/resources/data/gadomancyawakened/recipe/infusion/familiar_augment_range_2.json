@@ -1,0 +1,53 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 36
+    },
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 34
+    },
+    {
+      "aspect": "thaumaturge:aversio",
+      "amount": 28
+    },
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 40
+    }
+  ],
+  "catalyst": "thaumaturge:runed_tablet",
+  "components": [
+    "thaumaturge:essentia_crystal",
+    "thaumaturge:nitor_yellow",
+    "thaumaturge:amber",
+    "thaumaturge:quicksilver",
+    "minecraft:nether_star",
+    "thaumaturge:alumentum",
+    "thaumaturge:amber",
+    "thaumaturge:quicksilver",
+    "thaumaturge:essentia_crystal",
+    "thaumaturge:nitor_yellow",
+    "thaumaturge:amber",
+    "thaumaturge:quicksilver",
+    "minecraft:nether_star",
+    "thaumaturge:alumentum",
+    "thaumaturge:amber",
+    "thaumaturge:quicksilver"
+  ],
+  "instability": 9,
+  "research": {
+    "entry": "gadomancyawakened:familiar_range"
+  },
+  "result": {
+    "id": "gadomancyawakened:familiar_augment",
+    "components": {
+      "gadomancyawakened:augment": {
+        "augment": "range",
+        "level": 2
+      }
+    }
+  }
+}

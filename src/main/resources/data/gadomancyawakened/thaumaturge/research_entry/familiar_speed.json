@@ -1,0 +1,51 @@
+{
+  "category": "gadomancyawakened:gadomancyawakened",
+  "name": "research.gadomancyawakened.familiar_speed.title",
+  "parents": [
+    "gadomancyawakened:ethereal_familiar"
+  ],
+  "column": -3,
+  "row": -6,
+  "icons": [
+    "gadomancyawakened:familiar_augment"
+  ],
+  "stages": [
+    {
+      "text": "research.gadomancyawakened.familiar_speed.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:auromancy",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:auromancy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.gadomancyawakened.familiar_speed.stage_1",
+      "recipes": [
+        "gadomancyawakened:infusion/familiar_augment_speed_1",
+        "gadomancyawakened:infusion/familiar_augment_speed_2"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:aversio",
+      "amount": 3
+    }
+  ],
+  "complexity": 2
+}

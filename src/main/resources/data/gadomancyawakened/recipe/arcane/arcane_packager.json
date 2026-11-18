@@ -1,0 +1,44 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 10
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 6
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 5
+    }
+  ],
+  "key": {
+    "P": "thaumaturge:plank_greatwood",
+    "S": "minecraft:piston",
+    "G": "thaumaturge:warded_glass",
+    "C": {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "gadomancyawakened:aura_core",
+      "components": {
+        "gadomancyawakened:core_aspect": "thaumaturge:aer"
+      }
+    },
+    "J": "thaumaturge:jar_normal",
+    "T": "thaumaturge:arcane_workbench"
+  },
+  "pattern": [
+    "PSP",
+    "GCG",
+    "JTJ"
+  ],
+  "research": {
+    "entry": "gadomancyawakened:arcane_packager",
+    "stage": 0
+  },
+  "result": {
+    "id": "gadomancyawakened:arcane_packager"
+  },
+  "vis": 60
+}

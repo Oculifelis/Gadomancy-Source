@@ -1,0 +1,52 @@
+{
+  "category": "gadomancyawakened:gadomancyawakened",
+  "name": "research.gadomancyawakened.familiar_poison.title",
+  "parents": [
+    "gadomancyawakened:ethereal_familiar"
+  ],
+  "column": -2,
+  "row": -5,
+  "icons": [
+    "gadomancyawakened:familiar_augment"
+  ],
+  "stages": [
+    {
+      "text": "research.gadomancyawakened.familiar_poison.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:auromancy",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:auromancy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.gadomancyawakened.familiar_poison.stage_1",
+      "recipes": [
+        "gadomancyawakened:infusion/familiar_augment_poison_1",
+        "gadomancyawakened:infusion/familiar_augment_poison_2",
+        "gadomancyawakened:infusion/familiar_augment_poison_3"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:aversio",
+      "amount": 3
+    }
+  ],
+  "complexity": 2
+}

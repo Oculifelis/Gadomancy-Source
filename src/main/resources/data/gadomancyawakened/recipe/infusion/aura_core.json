@@ -1,0 +1,43 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 9
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 19
+    },
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 17
+    },
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 34
+    }
+  ],
+  "catalyst": "thaumaturge:primal_charm",
+  "components": [
+    "thaumaturge:crystal_aer",
+    "thaumaturge:ingot_thaumium",
+    "thaumaturge:ingot_thaumium",
+    "thaumaturge:crystal_ignis",
+    "thaumaturge:ingot_thaumium",
+    "thaumaturge:ingot_thaumium",
+    "thaumaturge:crystal_aqua",
+    "thaumaturge:ingot_thaumium",
+    "thaumaturge:ingot_thaumium",
+    "thaumaturge:crystal_terra",
+    "thaumaturge:ingot_thaumium",
+    "thaumaturge:ingot_thaumium"
+  ],
+  "instability": 6,
+  "research": {
+    "entry": "gadomancyawakened:aura_core"
+  },
+  "result": {
+    "id": "gadomancyawakened:aura_core"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "category": "gadomancyawakened:gadomancyawakened",
+  "name": "research.gadomancyawakened.arcane_dropper.title",
+  "parents": [
+    "thaumaturge:bellows"
+  ],
+  "column": -1,
+  "row": -3,
+  "icons": [
+    "gadomancyawakened:arcane_dropper"
+  ],
+  "stages": [
+    {
+      "text": "research.gadomancyawakened.arcane_dropper.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:artifice",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:artifice",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.gadomancyawakened.arcane_dropper.stage_1",
+      "recipes": [
+        "gadomancyawakened:arcane/arcane_dropper"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 6
+    },
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:sensus",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:machina",
+      "amount": 7
+    }
+  ],
+  "complexity": 2
+}

@@ -1,0 +1,41 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:aversio",
+      "amount": 10
+    },
+    {
+      "aspect": "thaumaturge:potentia",
+      "amount": 12
+    },
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 16
+    }
+  ],
+  "catalyst": "thaumaturge:runed_tablet",
+  "components": [
+    "thaumaturge:essentia_crystal",
+    "thaumaturge:amber",
+    "thaumaturge:essentia_crystal",
+    "minecraft:gunpowder",
+    "thaumaturge:essentia_crystal",
+    "thaumaturge:amber",
+    "thaumaturge:essentia_crystal",
+    "minecraft:gunpowder"
+  ],
+  "instability": 6,
+  "research": {
+    "entry": "gadomancyawakened:familiar_damage"
+  },
+  "result": {
+    "id": "gadomancyawakened:familiar_augment",
+    "components": {
+      "gadomancyawakened:augment": {
+        "augment": "damage",
+        "level": 1
+      }
+    }
+  }
+}

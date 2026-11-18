@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "level=0": {
+      "model": "gadomancyawakened:block/block_protector_off"
+    },
+    "level=1": {
+      "model": "gadomancyawakened:block/block_protector_on"
+    },
+    "level=2": {
+      "model": "gadomancyawakened:block/block_protector_on"
+    },
+    "level=3": {
+      "model": "gadomancyawakened:block/block_protector_on"
+    },
+    "level=4": {
+      "model": "gadomancyawakened:block/block_protector_on"
+    },
+    "level=5": {
+      "model": "gadomancyawakened:block/block_protector_on"
+    },
+    "level=6": {
+      "model": "gadomancyawakened:block/block_protector_on"
+    },
+    "level=7": {
+      "model": "gadomancyawakened:block/block_protector_on"
+    },
+    "level=8": {
+      "model": "gadomancyawakened:block/block_protector_on"
+    },
+    "level=9": {
+      "model": "gadomancyawakened:block/block_protector_on"
+    },
+    "level=10": {
+      "model": "gadomancyawakened:block/block_protector_on"
+    },
+    "level=11": {
+      "model": "gadomancyawakened:block/block_protector_on"
+    },
+    "level=12": {
+      "model": "gadomancyawakened:block/block_protector_on"
+    },
+    "level=13": {
+      "model": "gadomancyawakened:block/block_protector_on"
+    },
+    "level=14": {
+      "model": "gadomancyawakened:block/block_protector_on"
+    },
+    "level=15": {
+      "model": "gadomancyawakened:block/block_protector_on"
+    }
+  }
+}

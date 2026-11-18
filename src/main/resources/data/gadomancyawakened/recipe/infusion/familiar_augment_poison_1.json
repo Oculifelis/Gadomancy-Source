@@ -1,0 +1,41 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:alkimia",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 4
+    }
+  ],
+  "catalyst": "thaumaturge:runed_tablet",
+  "components": [
+    "thaumaturge:essentia_crystal",
+    "minecraft:spider_eye",
+    "thaumaturge:essentia_crystal",
+    "minecraft:rotten_flesh",
+    "thaumaturge:essentia_crystal",
+    "minecraft:spider_eye",
+    "thaumaturge:essentia_crystal",
+    "minecraft:rotten_flesh"
+  ],
+  "instability": 5,
+  "research": {
+    "entry": "gadomancyawakened:familiar_poison"
+  },
+  "result": {
+    "id": "gadomancyawakened:familiar_augment",
+    "components": {
+      "gadomancyawakened:augment": {
+        "augment": "poison",
+        "level": 1
+      }
+    }
+  }
+}

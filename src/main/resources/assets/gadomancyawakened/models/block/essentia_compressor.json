@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "side": "gadomancyawakened:block/essentia_compressor_side",
+    "end": "gadomancyawakened:block/essentia_compressor_top"
+  }
+}

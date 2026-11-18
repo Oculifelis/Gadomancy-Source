@@ -1,0 +1,30 @@
+{
+  "type": "thaumaturge:crucible",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 12
+    },
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 12
+    },
+    {
+      "aspect": "thaumaturge:victus",
+      "amount": 18
+    }
+  ],
+  "catalyst": {
+    "neoforge:ingredient_type": "neoforge:components",
+    "items": "gadomancyawakened:aura_core",
+    "components": {
+      "gadomancyawakened:core_aspect": "thaumaturge:aqua"
+    }
+  },
+  "research": {
+    "entry": "gadomancyawakened:aura_core"
+  },
+  "result": {
+    "id": "gadomancyawakened:aura_core"
+  }
+}

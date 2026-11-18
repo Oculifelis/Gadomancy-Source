@@ -1,0 +1,45 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 28
+    },
+    {
+      "aspect": "thaumaturge:motus",
+      "amount": 38
+    },
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 20
+    },
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 36
+    }
+  ],
+  "catalyst": "thaumaturge:runed_tablet",
+  "components": [
+    "thaumaturge:elemental_sword",
+    "thaumaturge:amber",
+    "thaumaturge:essentia_crystal",
+    "thaumaturge:amber",
+    "thaumaturge:essentia_crystal",
+    "thaumaturge:amber",
+    "thaumaturge:essentia_crystal",
+    "thaumaturge:amber"
+  ],
+  "instability": 6,
+  "research": {
+    "entry": "gadomancyawakened:familiar_speed"
+  },
+  "result": {
+    "id": "gadomancyawakened:familiar_augment",
+    "components": {
+      "gadomancyawakened:augment": {
+        "augment": "speed",
+        "level": 1
+      }
+    }
+  }
+}

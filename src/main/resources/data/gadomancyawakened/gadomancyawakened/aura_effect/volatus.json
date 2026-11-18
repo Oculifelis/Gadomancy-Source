@@ -1,0 +1,14 @@
+{
+  "aspect": "thaumaturge:volatus",
+  "interval": 2,
+  "range": 8,
+  "actions": [
+    {
+      "type": "mob_effect",
+      "effect": "minecraft:jump_boost",
+      "amplifier": 0,
+      "add": 5,
+      "cap": 4800
+    }
+  ]
+}

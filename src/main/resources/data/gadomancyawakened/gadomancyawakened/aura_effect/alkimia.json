@@ -1,0 +1,14 @@
+{
+  "aspect": "thaumaturge:alkimia",
+  "interval": 2,
+  "range": 8,
+  "actions": [
+    {
+      "type": "mob_effect",
+      "effect": "minecraft:poison",
+      "amplifier": 0,
+      "add": 6,
+      "cap": 1200
+    }
+  ]
+}

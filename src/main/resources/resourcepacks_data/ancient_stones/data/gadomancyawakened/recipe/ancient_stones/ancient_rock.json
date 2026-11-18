@@ -1,0 +1,37 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 2
+    }
+  ],
+  "key": {
+    "A": "thaumaturge:stone_arcane",
+    "B": "thaumaturge:stone_arcane_brick",
+    "C": "thaumaturge:eldritch_crust",
+    "R": "thaumaturge:stone_ancient"
+  },
+  "pattern": [
+    "ABA",
+    "CRC",
+    "ABA"
+  ],
+  "research": {
+    "entry": "gadomancyawakened:ancient_stones",
+    "stage": 0
+  },
+  "result": {
+    "id": "thaumaturge:stone_ancient_rock",
+    "count": 6
+  },
+  "vis": 20
+}

@@ -1,0 +1,11 @@
+{
+  "aspect": "thaumaturge:herba",
+  "interval": 1,
+  "range": 8,
+  "actions": [
+    {
+      "type": "random_tick",
+      "count": 180
+    }
+  ]
+}

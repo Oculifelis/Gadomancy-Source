@@ -1,0 +1,49 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:mortuus",
+      "amount": 28
+    },
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 26
+    },
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 28
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 48
+    },
+    {
+      "aspect": "thaumaturge:vinculum",
+      "amount": 14
+    }
+  ],
+  "catalyst": "thaumaturge:runed_tablet",
+  "components": [
+    "thaumaturge:essentia_crystal",
+    "minecraft:rotten_flesh",
+    "minecraft:wither_skeleton_skull",
+    "minecraft:rotten_flesh",
+    "thaumaturge:essentia_crystal",
+    "minecraft:rotten_flesh",
+    "minecraft:wither_skeleton_skull",
+    "minecraft:rotten_flesh"
+  ],
+  "instability": 8,
+  "research": {
+    "entry": "gadomancyawakened:familiar_weakness"
+  },
+  "result": {
+    "id": "gadomancyawakened:familiar_augment",
+    "components": {
+      "gadomancyawakened:augment": {
+        "augment": "weakness",
+        "level": 2
+      }
+    }
+  }
+}

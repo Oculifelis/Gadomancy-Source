@@ -1,0 +1,39 @@
+{
+  "aspect": "thaumaturge:exanimis",
+  "interval": 8,
+  "range": 10,
+  "actions": [
+    {
+      "type": "mob_effect",
+      "effect": "minecraft:strength",
+      "amplifier": 1,
+      "add": 30,
+      "cap": 3600,
+      "targets": "undead"
+    },
+    {
+      "type": "mob_effect",
+      "effect": "minecraft:speed",
+      "amplifier": 0,
+      "add": 30,
+      "cap": 3600,
+      "targets": "undead"
+    },
+    {
+      "type": "mob_effect",
+      "effect": "minecraft:regeneration",
+      "amplifier": 0,
+      "add": 30,
+      "cap": 3600,
+      "targets": "undead"
+    },
+    {
+      "type": "spawn",
+      "entities": [
+        "thaumaturge:brainy_zombie"
+      ],
+      "chance": 0.016666666666666666,
+      "hostile": true
+    }
+  ]
+}

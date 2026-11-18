@@ -1,0 +1,55 @@
+{
+  "category": "gadomancyawakened:gadomancyawakened",
+  "name": "research.gadomancyawakened.ethereal_familiar.title",
+  "parents": [
+    "thaumaturge:vis_amulet"
+  ],
+  "column": -3,
+  "row": -3,
+  "icons": [
+    "gadomancyawakened:ethereal_familiar"
+  ],
+  "stages": [
+    {
+      "text": "research.gadomancyawakened.ethereal_familiar.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:auromancy",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:auromancy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.gadomancyawakened.ethereal_familiar.stage_1",
+      "recipes": [
+        "gadomancyawakened:infusion/ethereal_familiar",
+        "gadomancyawakened:familiar"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 6
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:spiritus",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:aversio",
+      "amount": 3
+    }
+  ],
+  "complexity": 2
+}

@@ -1,0 +1,43 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 22
+    },
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 38
+    },
+    {
+      "aspect": "thaumaturge:machina",
+      "amount": 30
+    },
+    {
+      "aspect": "thaumaturge:tenebrae",
+      "amount": 28
+    },
+    {
+      "aspect": "thaumaturge:permutatio",
+      "amount": 38
+    }
+  ],
+  "catalyst": "thaumaturge:node_transducer",
+  "components": [
+    "thaumaturge:eldritch_eye",
+    "thaumaturge:crystal_perditio",
+    "thaumaturge:ingot_void",
+    "thaumaturge:crystal_perditio",
+    "thaumaturge:eldritch_eye",
+    "thaumaturge:crystal_perditio",
+    "thaumaturge:ingot_void",
+    "thaumaturge:crystal_perditio"
+  ],
+  "instability": 7,
+  "research": {
+    "entry": "gadomancyawakened:portal_creator"
+  },
+  "result": {
+    "id": "gadomancyawakened:portal_focus"
+  }
+}

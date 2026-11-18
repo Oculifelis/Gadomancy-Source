@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "part=loose": {
+      "model": "gadomancyawakened:block/aura_pylon"
+    },
+    "part=core": {
+      "model": "gadomancyawakened:block/aura_pylon_formed"
+    },
+    "part=shaft": {
+      "model": "gadomancyawakened:block/aura_pylon_formed"
+    },
+    "part=base": {
+      "model": "gadomancyawakened:block/aura_pylon_formed"
+    }
+  }
+}

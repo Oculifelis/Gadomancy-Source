@@ -1,0 +1,56 @@
+{
+  "category": "gadomancyawakened:gadomancyawakened",
+  "name": "research.gadomancyawakened.node_manipulator.title",
+  "parents": [
+    "thaumaturge:node_stabilizer_advanced",
+    "gadomancyawakened:aura_core"
+  ],
+  "column": 4,
+  "row": -1,
+  "icons": [
+    "gadomancyawakened:node_manipulator"
+  ],
+  "stages": [
+    {
+      "text": "research.gadomancyawakened.node_manipulator.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:auromancy",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:auromancy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.gadomancyawakened.node_manipulator.stage_1",
+      "recipes": [
+        "gadomancyawakened:infusion/node_manipulator",
+        "gadomancyawakened:infusion/randomization_focus"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 6
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:permutatio",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 3
+    }
+  ],
+  "complexity": 3
+}

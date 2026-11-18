@@ -1,0 +1,11 @@
+{
+  "aspect": "thaumaturge:auram",
+  "interval": 1,
+  "range": 8,
+  "actions": [
+    {
+      "type": "wand_vis",
+      "amount": 4
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:alkimia",
+      "amount": 28
+    },
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 12
+    },
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 22
+    },
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 8
+    }
+  ],
+  "catalyst": "thaumaturge:runed_tablet",
+  "components": [
+    "thaumaturge:essentia_crystal",
+    "minecraft:fermented_spider_eye",
+    "minecraft:ender_pearl",
+    "thaumaturge:essentia_crystal",
+    "minecraft:sugar_cane",
+    "minecraft:pumpkin_seeds",
+    "thaumaturge:essentia_crystal",
+    "minecraft:fermented_spider_eye",
+    "minecraft:ender_pearl",
+    "thaumaturge:essentia_crystal",
+    "minecraft:sugar_cane",
+    "minecraft:pumpkin_seeds"
+  ],
+  "instability": 7,
+  "research": {
+    "entry": "gadomancyawakened:familiar_poison"
+  },
+  "result": {
+    "id": "gadomancyawakened:familiar_augment",
+    "components": {
+      "gadomancyawakened:augment": {
+        "augment": "poison",
+        "level": 2
+      }
+    }
+  }
+}

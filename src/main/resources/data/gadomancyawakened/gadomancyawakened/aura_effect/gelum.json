@@ -1,0 +1,20 @@
+{
+  "aspect": "thaumaturge:gelum",
+  "interval": 2,
+  "range": 8,
+  "actions": [
+    {
+      "type": "mob_effect",
+      "effect": "minecraft:slowness",
+      "amplifier": 1,
+      "add": 5,
+      "cap": 3600,
+      "ambient": false
+    },
+    {
+      "type": "freeze_water",
+      "min": 10,
+      "max": 19
+    }
+  ]
+}

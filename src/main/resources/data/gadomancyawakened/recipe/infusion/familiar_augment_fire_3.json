@@ -1,0 +1,53 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 48
+    },
+    {
+      "aspect": "thaumaturge:potentia",
+      "amount": 42
+    },
+    {
+      "aspect": "thaumaturge:aversio",
+      "amount": 32
+    },
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 30
+    }
+  ],
+  "catalyst": "thaumaturge:runed_tablet",
+  "components": [
+    "thaumaturge:essentia_crystal",
+    "minecraft:blaze_powder",
+    "thaumaturge:crystal_ignis",
+    "minecraft:blaze_powder",
+    "minecraft:nether_star",
+    "minecraft:blaze_powder",
+    "thaumaturge:nitor_yellow",
+    "minecraft:blaze_powder",
+    "thaumaturge:essentia_crystal",
+    "minecraft:blaze_powder",
+    "thaumaturge:crystal_ignis",
+    "minecraft:blaze_powder",
+    "minecraft:nether_star",
+    "minecraft:blaze_powder",
+    "thaumaturge:nitor_yellow",
+    "minecraft:blaze_powder"
+  ],
+  "instability": 9,
+  "research": {
+    "entry": "gadomancyawakened:familiar_fire"
+  },
+  "result": {
+    "id": "gadomancyawakened:familiar_augment",
+    "components": {
+      "gadomancyawakened:augment": {
+        "augment": "fire",
+        "level": 3
+      }
+    }
+  }
+}

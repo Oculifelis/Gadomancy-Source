@@ -1,0 +1,14 @@
+{
+  "aspect": "thaumaturge:terra",
+  "interval": 8,
+  "range": 8,
+  "actions": [
+    {
+      "type": "mob_effect",
+      "effect": "minecraft:resistance",
+      "amplifier": 0,
+      "add": 8,
+      "cap": 6000
+    }
+  ]
+}

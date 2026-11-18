@@ -1,0 +1,48 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 7
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 3
+    }
+  ],
+  "key": {
+    "S": "thaumaturge:scribing_tools",
+    "T": "thaumaturge:thaumonomicon",
+    "B": "minecraft:book",
+    "O": {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "gadomancyawakened:aura_core",
+      "components": {
+        "gadomancyawakened:core_aspect": "thaumaturge:ordo"
+      }
+    },
+    "M": "thaumaturge:brain_box",
+    "G": "thaumaturge:goggles_revealing"
+  },
+  "pattern": [
+    "STS",
+    "BOB",
+    "MGM"
+  ],
+  "research": {
+    "entry": "gadomancyawakened:knowledge_book",
+    "stage": 0
+  },
+  "result": {
+    "id": "gadomancyawakened:knowledge_book"
+  },
+  "vis": 60
+}

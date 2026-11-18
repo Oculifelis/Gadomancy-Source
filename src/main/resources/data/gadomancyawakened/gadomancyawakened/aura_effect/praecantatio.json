@@ -1,0 +1,15 @@
+{
+  "aspect": "thaumaturge:praecantatio",
+  "interval": 8,
+  "range": 8,
+  "actions": [
+    {
+      "type": "mob_effect",
+      "effect": "gadomancyawakened:vis_affinity",
+      "amplifier": 0,
+      "add": 6,
+      "cap": 4800,
+      "targets": "players"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "thaumaturge:block/jar_normal",
+  "textures": {
+    "top": "gadomancyawakened:block/remote_jar_top",
+    "side": "gadomancyawakened:block/remote_jar_side",
+    "particle": "gadomancyawakened:block/remote_jar_side"
+  }
+}

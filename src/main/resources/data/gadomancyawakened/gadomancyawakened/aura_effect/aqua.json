@@ -1,0 +1,14 @@
+{
+  "aspect": "thaumaturge:aqua",
+  "interval": 8,
+  "range": 8,
+  "actions": [
+    {
+      "type": "mob_effect",
+      "effect": "minecraft:water_breathing",
+      "amplifier": 0,
+      "add": 10,
+      "cap": 12000
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "aspect": "thaumaturge:aer",
+  "interval": 4,
+  "range": 8,
+  "actions": [
+    {
+      "type": "mob_effect",
+      "effect": "minecraft:speed",
+      "amplifier": 1,
+      "add": 6,
+      "cap": 7200
+    }
+  ]
+}

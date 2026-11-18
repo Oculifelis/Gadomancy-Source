@@ -1,0 +1,43 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 4
+    }
+  ],
+  "key": {
+    "K": "thaumaturge:curio_ancient",
+    "G": "thaumaturge:eldritch_crust_glowing"
+  },
+  "pattern": [
+    "KKK",
+    "KGK",
+    "KKK"
+  ],
+  "research": {
+    "entry": "gadomancyawakened:ancient_stones",
+    "stage": 0
+  },
+  "result": {
+    "id": "thaumaturge:stone_ancient_glyphed",
+    "count": 2
+  },
+  "vis": 60
+}

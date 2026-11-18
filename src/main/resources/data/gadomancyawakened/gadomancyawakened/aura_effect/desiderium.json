@@ -1,0 +1,14 @@
+{
+  "aspect": "thaumaturge:desiderium",
+  "interval": 8,
+  "range": 8,
+  "actions": [
+    {
+      "type": "mob_effect",
+      "effect": "gadomancyawakened:mining_luck",
+      "amplifier": 0,
+      "add": 6,
+      "cap": 4800
+    }
+  ]
+}

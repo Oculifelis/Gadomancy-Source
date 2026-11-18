@@ -1,0 +1,53 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:alkimia",
+      "amount": 38
+    },
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 22
+    },
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 48
+    },
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 36
+    }
+  ],
+  "catalyst": "thaumaturge:runed_tablet",
+  "components": [
+    "thaumaturge:essentia_crystal",
+    "minecraft:nether_wart",
+    "minecraft:rotten_flesh",
+    "minecraft:nether_wart",
+    "minecraft:spider_eye",
+    "minecraft:nether_wart",
+    "minecraft:nether_star",
+    "minecraft:nether_wart",
+    "thaumaturge:essentia_crystal",
+    "minecraft:nether_wart",
+    "minecraft:rotten_flesh",
+    "minecraft:nether_wart",
+    "minecraft:spider_eye",
+    "minecraft:nether_wart",
+    "minecraft:nether_star",
+    "minecraft:nether_wart"
+  ],
+  "instability": 9,
+  "research": {
+    "entry": "gadomancyawakened:familiar_poison"
+  },
+  "result": {
+    "id": "gadomancyawakened:familiar_augment",
+    "components": {
+      "gadomancyawakened:augment": {
+        "augment": "poison",
+        "level": 3
+      }
+    }
+  }
+}

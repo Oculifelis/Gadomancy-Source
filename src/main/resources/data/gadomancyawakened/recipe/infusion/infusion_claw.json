@@ -1,0 +1,45 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 25
+    },
+    {
+      "aspect": "thaumaturge:machina",
+      "amount": 20
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 20
+    },
+    {
+      "aspect": "thaumaturge:tenebrae",
+      "amount": 12
+    }
+  ],
+  "catalyst": "thaumaturge:recharge_pedestal",
+  "components": [
+    "thaumaturge:primal_charm",
+    "thaumaturge:stone_arcane_brick",
+    "thaumaturge:mind_clockwork",
+    "thaumaturge:ingot_void",
+    "thaumaturge:stone_arcane_brick",
+    "thaumaturge:primal_charm",
+    "thaumaturge:stone_arcane_brick",
+    "thaumaturge:brain",
+    "thaumaturge:ingot_void",
+    "thaumaturge:stone_arcane_brick"
+  ],
+  "instability": 10,
+  "research": {
+    "entry": "gadomancyawakened:infusion_claw"
+  },
+  "result": {
+    "id": "gadomancyawakened:infusion_claw"
+  }
+}

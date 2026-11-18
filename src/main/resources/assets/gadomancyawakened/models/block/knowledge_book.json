@@ -1,0 +1,78 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "gadomancyawakened:block/knowledge_book",
+    "book": "gadomancyawakened:block/knowledge_book"
+  },
+  "elements": [
+    {
+      "from": [
+        3,
+        0,
+        3
+      ],
+      "to": [
+        13,
+        4,
+        13
+      ],
+      "faces": {
+        "down": {
+          "texture": "#book",
+          "uv": [
+            3,
+            3,
+            13,
+            13
+          ],
+          "cullface": "down"
+        },
+        "up": {
+          "texture": "#book",
+          "uv": [
+            3,
+            3,
+            13,
+            13
+          ]
+        },
+        "north": {
+          "texture": "#book",
+          "uv": [
+            3,
+            0,
+            13,
+            4
+          ]
+        },
+        "south": {
+          "texture": "#book",
+          "uv": [
+            3,
+            0,
+            13,
+            4
+          ]
+        },
+        "east": {
+          "texture": "#book",
+          "uv": [
+            3,
+            0,
+            13,
+            4
+          ]
+        },
+        "west": {
+          "texture": "#book",
+          "uv": [
+            3,
+            0,
+            13,
+            4
+          ]
+        }
+      }
+    }
+  ]
+}

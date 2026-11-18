@@ -1,0 +1,55 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 19
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 15
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 12
+    },
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 10
+    },
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 6
+    }
+  ],
+  "key": {
+    "L": "thaumaturge:log_greatwood",
+    "R": "thaumaturge:crystal_ordo",
+    "T": "thaumaturge:tube_buffer",
+    "E": "gadomancyawakened:void_element",
+    "C": {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "gadomancyawakened:aura_core",
+      "components": {
+        "gadomancyawakened:core_aspect": "thaumaturge:aqua"
+      }
+    }
+  },
+  "pattern": [
+    "LRL",
+    "TET",
+    "LCL"
+  ],
+  "research": {
+    "entry": "gadomancyawakened:essentia_compressor",
+    "stage": 0
+  },
+  "result": {
+    "id": "gadomancyawakened:essentia_compressor"
+  },
+  "vis": 120
+}

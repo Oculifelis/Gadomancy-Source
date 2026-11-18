@@ -1,0 +1,55 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "gadomancyawakened:core_aspect",
+    "cases": [
+      {
+        "when": "thaumaturge:aer",
+        "model": {
+          "type": "minecraft:model",
+          "model": "gadomancyawakened:item/aura_core_aer"
+        }
+      },
+      {
+        "when": "thaumaturge:terra",
+        "model": {
+          "type": "minecraft:model",
+          "model": "gadomancyawakened:item/aura_core_terra"
+        }
+      },
+      {
+        "when": "thaumaturge:ignis",
+        "model": {
+          "type": "minecraft:model",
+          "model": "gadomancyawakened:item/aura_core_ignis"
+        }
+      },
+      {
+        "when": "thaumaturge:aqua",
+        "model": {
+          "type": "minecraft:model",
+          "model": "gadomancyawakened:item/aura_core_aqua"
+        }
+      },
+      {
+        "when": "thaumaturge:ordo",
+        "model": {
+          "type": "minecraft:model",
+          "model": "gadomancyawakened:item/aura_core_ordo"
+        }
+      },
+      {
+        "when": "thaumaturge:perditio",
+        "model": {
+          "type": "minecraft:model",
+          "model": "gadomancyawakened:item/aura_core_perditio"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "gadomancyawakened:item/aura_core_blank"
+    }
+  }
+}

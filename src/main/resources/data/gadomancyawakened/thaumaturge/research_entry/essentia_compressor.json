@@ -1,0 +1,56 @@
+{
+  "category": "gadomancyawakened:gadomancyawakened",
+  "name": "research.gadomancyawakened.essentia_compressor.title",
+  "parents": [
+    "gadomancyawakened:aura_core",
+    "thaumaturge:essentia_reservoir"
+  ],
+  "column": 3,
+  "row": 0,
+  "icons": [
+    "gadomancyawakened:essentia_compressor"
+  ],
+  "stages": [
+    {
+      "text": "research.gadomancyawakened.essentia_compressor.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:alchemy",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:alchemy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.gadomancyawakened.essentia_compressor.stage_1",
+      "recipes": [
+        "gadomancyawakened:arcane/essentia_compressor",
+        "gadomancyawakened:infusion/void_element"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 6
+    },
+    {
+      "aspect": "thaumaturge:permutatio",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 4
+    }
+  ],
+  "complexity": 3
+}

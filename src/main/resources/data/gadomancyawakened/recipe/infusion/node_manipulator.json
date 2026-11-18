@@ -1,0 +1,47 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 42
+    },
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 22
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 38
+    },
+    {
+      "aspect": "thaumaturge:machina",
+      "amount": 28
+    },
+    {
+      "aspect": "thaumaturge:tenebrae",
+      "amount": 14
+    }
+  ],
+  "catalyst": "thaumaturge:recharge_pedestal",
+  "components": [
+    "thaumaturge:node_stabilizer_advanced",
+    "thaumaturge:crystal_aer",
+    "thaumaturge:void_seed",
+    "thaumaturge:stone_ancient",
+    "thaumaturge:nitor_yellow",
+    "thaumaturge:primal_charm",
+    "thaumaturge:metal_thaumium",
+    "thaumaturge:crystal_ignis",
+    "thaumaturge:void_seed",
+    "thaumaturge:stone_ancient",
+    "thaumaturge:nitor_yellow",
+    "thaumaturge:primal_charm"
+  ],
+  "instability": 10,
+  "research": {
+    "entry": "gadomancyawakened:node_manipulator"
+  },
+  "result": {
+    "id": "gadomancyawakened:node_manipulator"
+  }
+}

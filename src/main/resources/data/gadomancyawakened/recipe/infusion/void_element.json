@@ -1,0 +1,39 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 22
+    },
+    {
+      "aspect": "thaumaturge:tenebrae",
+      "amount": 18
+    },
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 20
+    },
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 10
+    }
+  ],
+  "catalyst": "thaumaturge:void_seed",
+  "components": [
+    "thaumaturge:alumentum",
+    "thaumaturge:ingot_void",
+    "thaumaturge:ingot_void",
+    "thaumaturge:salis_mundus",
+    "thaumaturge:alumentum",
+    "thaumaturge:ingot_void",
+    "thaumaturge:ingot_void",
+    "thaumaturge:salis_mundus"
+  ],
+  "instability": 6,
+  "research": {
+    "entry": "gadomancyawakened:essentia_compressor"
+  },
+  "result": {
+    "id": "gadomancyawakened:void_element"
+  }
+}

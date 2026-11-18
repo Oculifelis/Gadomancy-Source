@@ -1,0 +1,57 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 38
+    },
+    {
+      "aspect": "thaumaturge:motus",
+      "amount": 52
+    },
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 38
+    },
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 48
+    },
+    {
+      "aspect": "thaumaturge:aversio",
+      "amount": 28
+    }
+  ],
+  "catalyst": "thaumaturge:runed_tablet",
+  "components": [
+    "thaumaturge:essentia_crystal",
+    "thaumaturge:primal_charm",
+    "minecraft:nether_star",
+    "thaumaturge:salis_mundus",
+    "thaumaturge:essentia_crystal",
+    "thaumaturge:primal_charm",
+    "thaumaturge:primordial_pearl",
+    "thaumaturge:salis_mundus",
+    "thaumaturge:essentia_crystal",
+    "thaumaturge:primal_charm",
+    "minecraft:nether_star",
+    "thaumaturge:salis_mundus",
+    "thaumaturge:essentia_crystal",
+    "thaumaturge:primal_charm",
+    "thaumaturge:primordial_pearl",
+    "thaumaturge:salis_mundus"
+  ],
+  "instability": 9,
+  "research": {
+    "entry": "gadomancyawakened:familiar_speed"
+  },
+  "result": {
+    "id": "gadomancyawakened:familiar_augment",
+    "components": {
+      "gadomancyawakened:augment": {
+        "augment": "speed",
+        "level": 2
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:aqua",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 5
+    }
+  ],
+  "key": {
+    "T": "thaumaturge:tube_buffer",
+    "S": "thaumaturge:log_silverwood",
+    "J": "thaumaturge:jar_normal"
+  },
+  "pattern": [
+    "TST",
+    "S S",
+    "TJT"
+  ],
+  "research": {
+    "entry": "gadomancyawakened:aura_pylon",
+    "stage": 0
+  },
+  "result": {
+    "id": "gadomancyawakened:aura_pylon"
+  },
+  "vis": 60
+}

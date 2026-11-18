@@ -1,0 +1,14 @@
+{
+  "aspect": "thaumaturge:mortuus",
+  "interval": 8,
+  "range": 8,
+  "actions": [
+    {
+      "type": "mob_effect",
+      "effect": "minecraft:wither",
+      "amplifier": 1,
+      "add": 6,
+      "cap": 3600
+    }
+  ]
+}

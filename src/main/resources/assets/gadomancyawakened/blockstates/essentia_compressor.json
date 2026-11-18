@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "part=none": {
+      "model": "gadomancyawakened:block/essentia_compressor"
+    },
+    "part=bottom": {
+      "model": "gadomancyawakened:block/essentia_compressor_formed"
+    },
+    "part=middle": {
+      "model": "gadomancyawakened:block/essentia_compressor_formed"
+    },
+    "part=top": {
+      "model": "gadomancyawakened:block/essentia_compressor_formed"
+    }
+  }
+}

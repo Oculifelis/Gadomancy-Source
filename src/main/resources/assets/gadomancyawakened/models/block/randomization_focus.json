@@ -1,0 +1,77 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "gadomancyawakened:block/randomization_focus",
+    "tex": "gadomancyawakened:block/randomization_focus"
+  },
+  "elements": [
+    {
+      "from": [
+        3,
+        0,
+        3
+      ],
+      "to": [
+        13,
+        6,
+        13
+      ],
+      "faces": {
+        "down": {
+          "texture": "#tex",
+          "uv": [
+            3,
+            3,
+            13,
+            13
+          ]
+        },
+        "up": {
+          "texture": "#tex",
+          "uv": [
+            3,
+            3,
+            13,
+            13
+          ]
+        },
+        "north": {
+          "texture": "#tex",
+          "uv": [
+            3,
+            10,
+            13,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#tex",
+          "uv": [
+            3,
+            10,
+            13,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#tex",
+          "uv": [
+            3,
+            10,
+            13,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#tex",
+          "uv": [
+            3,
+            10,
+            13,
+            16
+          ]
+        }
+      }
+    }
+  ]
+}

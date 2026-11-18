@@ -1,0 +1,52 @@
+{
+  "values": {
+    "thaumaturge:crystal_aer": {
+      "cost": {
+        "thaumaturge:aer": 84
+      },
+      "weights": {
+        "thaumaturge:aer": 60
+      }
+    },
+    "thaumaturge:crystal_terra": {
+      "cost": {
+        "thaumaturge:terra": 84
+      },
+      "weights": {
+        "thaumaturge:terra": 60
+      }
+    },
+    "thaumaturge:crystal_ignis": {
+      "cost": {
+        "thaumaturge:ignis": 84
+      },
+      "weights": {
+        "thaumaturge:ignis": 60
+      }
+    },
+    "thaumaturge:crystal_aqua": {
+      "cost": {
+        "thaumaturge:aqua": 84
+      },
+      "weights": {
+        "thaumaturge:aqua": 60
+      }
+    },
+    "thaumaturge:crystal_ordo": {
+      "cost": {
+        "thaumaturge:ordo": 84
+      },
+      "weights": {
+        "thaumaturge:ordo": 60
+      }
+    },
+    "thaumaturge:crystal_perditio": {
+      "cost": {
+        "thaumaturge:perditio": 84
+      },
+      "weights": {
+        "thaumaturge:perditio": 60
+      }
+    }
+  }
+}

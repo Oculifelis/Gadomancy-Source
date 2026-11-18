@@ -1,0 +1,153 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "gadomancyawakened:augment",
+    "cases": [
+      {
+        "when": [
+          {
+            "augment": "shock",
+            "level": 1
+          },
+          {
+            "augment": "shock",
+            "level": 2
+          },
+          {
+            "augment": "shock",
+            "level": 3
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "gadomancyawakened:item/familiar_augment_shock"
+        }
+      },
+      {
+        "when": [
+          {
+            "augment": "fire",
+            "level": 1
+          },
+          {
+            "augment": "fire",
+            "level": 2
+          },
+          {
+            "augment": "fire",
+            "level": 3
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "gadomancyawakened:item/familiar_augment_fire"
+        }
+      },
+      {
+        "when": [
+          {
+            "augment": "poison",
+            "level": 1
+          },
+          {
+            "augment": "poison",
+            "level": 2
+          },
+          {
+            "augment": "poison",
+            "level": 3
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "gadomancyawakened:item/familiar_augment_poison"
+        }
+      },
+      {
+        "when": [
+          {
+            "augment": "weakness",
+            "level": 1
+          },
+          {
+            "augment": "weakness",
+            "level": 2
+          },
+          {
+            "augment": "weakness",
+            "level": 3
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "gadomancyawakened:item/familiar_augment_weakness"
+        }
+      },
+      {
+        "when": [
+          {
+            "augment": "damage",
+            "level": 1
+          },
+          {
+            "augment": "damage",
+            "level": 2
+          },
+          {
+            "augment": "damage",
+            "level": 3
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "gadomancyawakened:item/familiar_augment_damage"
+        }
+      },
+      {
+        "when": [
+          {
+            "augment": "range",
+            "level": 1
+          },
+          {
+            "augment": "range",
+            "level": 2
+          },
+          {
+            "augment": "range",
+            "level": 3
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "gadomancyawakened:item/familiar_augment_range"
+        }
+      },
+      {
+        "when": [
+          {
+            "augment": "speed",
+            "level": 1
+          },
+          {
+            "augment": "speed",
+            "level": 2
+          },
+          {
+            "augment": "speed",
+            "level": 3
+          }
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "gadomancyawakened:item/familiar_augment_speed"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "gadomancyawakened:item/familiar_augment_shock"
+    }
+  }
+}

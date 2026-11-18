@@ -1,0 +1,11 @@
+{
+  "aspect": "thaumaturge:fabrico",
+  "interval": 10,
+  "range": 8,
+  "actions": [
+    {
+      "type": "regrow_wool",
+      "chance": 0.1
+    }
+  ]
+}

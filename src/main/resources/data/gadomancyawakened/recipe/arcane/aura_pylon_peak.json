@@ -1,0 +1,42 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 9
+    },
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 12
+    },
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 7
+    }
+  ],
+  "key": {
+    "N": "thaumaturge:nitor_yellow",
+    "A": "thaumaturge:alumentum",
+    "C": {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "gadomancyawakened:aura_core",
+      "components": {
+        "gadomancyawakened:core_aspect": "thaumaturge:ignis"
+      }
+    },
+    "P": "gadomancyawakened:aura_pylon"
+  },
+  "pattern": [
+    " N ",
+    "ACA",
+    " P "
+  ],
+  "research": {
+    "entry": "gadomancyawakened:aura_pylon",
+    "stage": 0
+  },
+  "result": {
+    "id": "gadomancyawakened:aura_pylon_peak"
+  },
+  "vis": 70
+}

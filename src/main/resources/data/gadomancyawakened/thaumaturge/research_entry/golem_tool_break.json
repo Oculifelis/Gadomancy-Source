@@ -1,0 +1,54 @@
+{
+  "category": "gadomancyawakened:gadomancyawakened",
+  "name": "research.gadomancyawakened.golem_tool_break.title",
+  "parents": [
+    "thaumaturge:seal_break"
+  ],
+  "column": -2,
+  "row": 0,
+  "icons": [
+    "gadomancyawakened:seal_break"
+  ],
+  "stages": [
+    {
+      "text": "research.gadomancyawakened.golem_tool_break.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:golemancy",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:golemancy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.gadomancyawakened.golem_tool_break.stage_1",
+      "recipes": [
+        "gadomancyawakened:infusion/seal_break"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:instrumentum",
+      "amount": 6
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:machina",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:humanus",
+      "amount": 4
+    }
+  ],
+  "complexity": 2
+}

@@ -1,0 +1,18 @@
+{
+  "aspect": "thaumaturge:victus",
+  "interval": 8,
+  "range": 8,
+  "actions": [
+    {
+      "type": "mob_effect",
+      "effect": "minecraft:regeneration",
+      "amplifier": 1,
+      "add": 10,
+      "cap": 6000
+    },
+    {
+      "type": "age_up",
+      "chance": 0.05
+    }
+  ]
+}

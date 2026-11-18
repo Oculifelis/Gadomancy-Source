@@ -1,0 +1,5 @@
+{
+  "action": "decrease_modifier",
+  "weight": 5,
+  "polarity": "negative"
+}

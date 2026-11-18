@@ -1,0 +1,14 @@
+{
+  "aspect": "thaumaturge:praemunio",
+  "interval": 8,
+  "range": 8,
+  "actions": [
+    {
+      "type": "mob_effect",
+      "effect": "minecraft:resistance",
+      "amplifier": 1,
+      "add": 6,
+      "cap": 7200
+    }
+  ]
+}

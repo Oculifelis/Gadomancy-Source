@@ -1,0 +1,17 @@
+{
+  "aspect": "thaumaturge:bestia",
+  "interval": 4,
+  "range": 8,
+  "actions": [
+    {
+      "type": "spawn",
+      "entities": [
+        "minecraft:sheep",
+        "minecraft:cow",
+        "minecraft:chicken",
+        "minecraft:pig"
+      ],
+      "chance": 0.016666666666666666
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "aspect": "thaumaturge:aversio",
+  "interval": 8,
+  "range": 8,
+  "actions": [
+    {
+      "type": "mob_effect",
+      "effect": "minecraft:strength",
+      "amplifier": 2,
+      "add": 6,
+      "cap": 7200
+    }
+  ]
+}

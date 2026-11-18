@@ -1,0 +1,15 @@
+{
+  "aspect": "thaumaturge:humanus",
+  "interval": 2,
+  "range": 8,
+  "actions": [
+    {
+      "type": "mob_effect",
+      "effect": "minecraft:health_boost",
+      "amplifier": 1,
+      "add": 5,
+      "cap": 4800,
+      "targets": "players"
+    }
+  ]
+}

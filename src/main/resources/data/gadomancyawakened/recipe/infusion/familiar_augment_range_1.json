@@ -1,0 +1,41 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 30
+    },
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 22
+    },
+    {
+      "aspect": "thaumaturge:aversio",
+      "amount": 12
+    }
+  ],
+  "catalyst": "thaumaturge:runed_tablet",
+  "components": [
+    "thaumaturge:essentia_crystal",
+    "thaumaturge:crystal_ordo",
+    "thaumaturge:essentia_crystal",
+    "thaumaturge:primal_charm",
+    "thaumaturge:essentia_crystal",
+    "thaumaturge:crystal_ordo",
+    "thaumaturge:essentia_crystal",
+    "thaumaturge:primal_charm"
+  ],
+  "instability": 6,
+  "research": {
+    "entry": "gadomancyawakened:familiar_range"
+  },
+  "result": {
+    "id": "gadomancyawakened:familiar_augment",
+    "components": {
+      "gadomancyawakened:augment": {
+        "augment": "range",
+        "level": 1
+      }
+    }
+  }
+}

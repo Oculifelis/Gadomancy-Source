@@ -1,0 +1,36 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 6
+    },
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 4
+    }
+  ],
+  "key": {
+    "G": "#c:ingots/gold",
+    "I": "#c:ingots/iron",
+    "M": "thaumaturge:mind_clockwork",
+    "S": "minecraft:shield"
+  },
+  "pattern": [
+    " G ",
+    "IMI",
+    " S "
+  ],
+  "research": {
+    "entry": "gadomancyawakened:golem_bodyguard",
+    "stage": 0
+  },
+  "result": {
+    "id": "gadomancyawakened:bodyguard_badge"
+  },
+  "vis": 40
+}

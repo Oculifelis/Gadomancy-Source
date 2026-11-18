@@ -1,0 +1,55 @@
+{
+  "category": "gadomancyawakened:gadomancyawakened",
+  "name": "research.gadomancyawakened.golem_silverwood.title",
+  "parents": [
+    "thaumaturge:mat_stud_wood"
+  ],
+  "column": 1,
+  "row": -2,
+  "icons": [
+    "thaumaturge:log_silverwood"
+  ],
+  "stages": [
+    {
+      "text": "research.gadomancyawakened.golem_silverwood.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:golemancy",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:golemancy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.gadomancyawakened.golem_silverwood.stage_1",
+      "recipes": []
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:motus",
+      "amount": 10
+    },
+    {
+      "aspect": "thaumaturge:herba",
+      "amount": 10
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 8
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 8
+    }
+  ],
+  "complexity": 3,
+  "meta": [
+    "hidden"
+  ]
+}

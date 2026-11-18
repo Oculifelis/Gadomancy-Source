@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": {
+    "gadomancyawakened:arcane_package": [
+      {
+        "aspect": "thaumaturge:fabrico",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:vacuos",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:bestia",
+        "amount": 1
+      }
+    ],
+    "gadomancyawakened:arcane_package_essentia": [
+      {
+        "aspect": "thaumaturge:fabrico",
+        "amount": 4
+      },
+      {
+        "aspect": "thaumaturge:vacuos",
+        "amount": 2
+      },
+      {
+        "aspect": "thaumaturge:praecantatio",
+        "amount": 1
+      }
+    ]
+  }
+}

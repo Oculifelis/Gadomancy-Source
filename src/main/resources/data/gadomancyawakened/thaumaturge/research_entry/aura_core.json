@@ -1,0 +1,61 @@
+{
+  "category": "gadomancyawakened:gadomancyawakened",
+  "name": "research.gadomancyawakened.aura_core.title",
+  "parents": [
+    "thaumaturge:focus_primal",
+    "thaumaturge:infusion"
+  ],
+  "column": 0,
+  "row": -2,
+  "icons": [
+    "gadomancyawakened:aura_core"
+  ],
+  "stages": [
+    {
+      "text": "research.gadomancyawakened.aura_core.stage_0",
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "category": "thaumaturge:auromancy",
+          "amount": 1
+        },
+        {
+          "type": "observation",
+          "category": "thaumaturge:auromancy",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "text": "research.gadomancyawakened.aura_core.stage_1",
+      "recipes": [
+        "gadomancyawakened:infusion/aura_core",
+        "gadomancyawakened:crucible/clean_aura_core_aer",
+        "gadomancyawakened:crucible/clean_aura_core_terra",
+        "gadomancyawakened:crucible/clean_aura_core_ignis",
+        "gadomancyawakened:crucible/clean_aura_core_aqua",
+        "gadomancyawakened:crucible/clean_aura_core_ordo",
+        "gadomancyawakened:crucible/clean_aura_core_perditio"
+      ]
+    }
+  ],
+  "note_aspects": [
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 6
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 4
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 3
+    }
+  ],
+  "complexity": 2
+}

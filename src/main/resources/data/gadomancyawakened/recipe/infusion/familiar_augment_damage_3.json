@@ -1,0 +1,53 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:aversio",
+      "amount": 38
+    },
+    {
+      "aspect": "thaumaturge:potentia",
+      "amount": 46
+    },
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 58
+    },
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 38
+    }
+  ],
+  "catalyst": "thaumaturge:runed_tablet",
+  "components": [
+    "thaumaturge:essentia_crystal",
+    "minecraft:blaze_powder",
+    "thaumaturge:void_sword",
+    "minecraft:blaze_powder",
+    "minecraft:nether_star",
+    "minecraft:blaze_powder",
+    "thaumaturge:alumentum",
+    "minecraft:blaze_powder",
+    "thaumaturge:essentia_crystal",
+    "minecraft:blaze_powder",
+    "thaumaturge:void_sword",
+    "minecraft:blaze_powder",
+    "minecraft:nether_star",
+    "minecraft:blaze_powder",
+    "thaumaturge:alumentum",
+    "minecraft:blaze_powder"
+  ],
+  "instability": 10,
+  "research": {
+    "entry": "gadomancyawakened:familiar_damage"
+  },
+  "result": {
+    "id": "gadomancyawakened:familiar_augment",
+    "components": {
+      "gadomancyawakened:augment": {
+        "augment": "damage",
+        "level": 3
+      }
+    }
+  }
+}

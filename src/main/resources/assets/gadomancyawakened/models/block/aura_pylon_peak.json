@@ -1,0 +1,137 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "gadomancyawakened:block/aura_pylon_peak",
+    "peak": "gadomancyawakened:block/aura_pylon_peak"
+  },
+  "elements": [
+    {
+      "from": [
+        3,
+        0,
+        3
+      ],
+      "to": [
+        13,
+        6,
+        13
+      ],
+      "faces": {
+        "down": {
+          "texture": "#peak",
+          "uv": [
+            3,
+            3,
+            13,
+            13
+          ],
+          "cullface": "down"
+        },
+        "up": {
+          "texture": "#peak",
+          "uv": [
+            3,
+            3,
+            13,
+            13
+          ]
+        },
+        "north": {
+          "texture": "#peak",
+          "uv": [
+            3,
+            10,
+            13,
+            16
+          ]
+        },
+        "south": {
+          "texture": "#peak",
+          "uv": [
+            3,
+            10,
+            13,
+            16
+          ]
+        },
+        "east": {
+          "texture": "#peak",
+          "uv": [
+            3,
+            10,
+            13,
+            16
+          ]
+        },
+        "west": {
+          "texture": "#peak",
+          "uv": [
+            3,
+            10,
+            13,
+            16
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        5,
+        6,
+        5
+      ],
+      "to": [
+        11,
+        10,
+        11
+      ],
+      "faces": {
+        "up": {
+          "texture": "#peak",
+          "uv": [
+            5,
+            5,
+            11,
+            11
+          ]
+        },
+        "north": {
+          "texture": "#peak",
+          "uv": [
+            5,
+            6,
+            11,
+            10
+          ]
+        },
+        "south": {
+          "texture": "#peak",
+          "uv": [
+            5,
+            6,
+            11,
+            10
+          ]
+        },
+        "east": {
+          "texture": "#peak",
+          "uv": [
+            5,
+            6,
+            11,
+            10
+          ]
+        },
+        "west": {
+          "texture": "#peak",
+          "uv": [
+            5,
+            6,
+            11,
+            10
+          ]
+        }
+      }
+    }
+  ]
+}

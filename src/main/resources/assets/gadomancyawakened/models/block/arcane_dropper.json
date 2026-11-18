@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "gadomancyawakened:block/arcane_dropper_front",
+    "side": "thaumaturge:block/arcane_brick_stone",
+    "top": "thaumaturge:block/arcane_brick_stone"
+  }
+}

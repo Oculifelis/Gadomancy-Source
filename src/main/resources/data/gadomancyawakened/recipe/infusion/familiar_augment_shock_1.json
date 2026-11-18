@@ -1,0 +1,37 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:motus",
+      "amount": 14
+    },
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 20
+    }
+  ],
+  "catalyst": "thaumaturge:runed_tablet",
+  "components": [
+    "thaumaturge:essentia_crystal",
+    "thaumaturge:alumentum",
+    "thaumaturge:essentia_crystal",
+    "thaumaturge:amber",
+    "thaumaturge:essentia_crystal",
+    "thaumaturge:alumentum",
+    "thaumaturge:essentia_crystal",
+    "thaumaturge:amber"
+  ],
+  "instability": 3,
+  "research": {
+    "entry": "gadomancyawakened:familiar_shock"
+  },
+  "result": {
+    "id": "gadomancyawakened:familiar_augment",
+    "components": {
+      "gadomancyawakened:augment": {
+        "augment": "shock",
+        "level": 1
+      }
+    }
+  }
+}

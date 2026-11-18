@@ -1,0 +1,13 @@
+{
+  "action": "switch_type",
+  "weight": 2,
+  "polarity": "neutral",
+  "types": {
+    "hungry": 1,
+    "tainted": 1,
+    "unstable": 3,
+    "dark": 5,
+    "pure": 5,
+    "normal": 10
+  }
+}

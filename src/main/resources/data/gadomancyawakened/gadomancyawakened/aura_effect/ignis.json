@@ -1,0 +1,11 @@
+{
+  "aspect": "thaumaturge:ignis",
+  "interval": 8,
+  "range": 8,
+  "actions": [
+    {
+      "type": "set_fire",
+      "seconds": 10
+    }
+  ]
+}

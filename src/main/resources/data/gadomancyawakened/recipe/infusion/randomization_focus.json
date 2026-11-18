@@ -1,0 +1,43 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 18
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 18
+    },
+    {
+      "aspect": "thaumaturge:machina",
+      "amount": 20
+    },
+    {
+      "aspect": "thaumaturge:tenebrae",
+      "amount": 28
+    },
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 30
+    }
+  ],
+  "catalyst": "thaumaturge:node_transducer",
+  "components": [
+    "thaumaturge:primal_charm",
+    "thaumaturge:ingot_void",
+    "thaumaturge:crystal_ordo",
+    "thaumaturge:ingot_void",
+    "thaumaturge:primal_charm",
+    "thaumaturge:ingot_void",
+    "thaumaturge:crystal_perditio",
+    "thaumaturge:ingot_void"
+  ],
+  "instability": 7,
+  "research": {
+    "entry": "gadomancyawakened:node_manipulator"
+  },
+  "result": {
+    "id": "gadomancyawakened:randomization_focus"
+  }
+}

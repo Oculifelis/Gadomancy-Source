@@ -1,0 +1,33 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:praemunio",
+      "amount": 24
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:machina",
+      "amount": 8
+    }
+  ],
+  "catalyst": "thaumaturge:amulet_mundane",
+  "components": [
+    "thaumaturge:ingot_thaumium",
+    "thaumaturge:quicksilver",
+    "thaumaturge:amber",
+    "thaumaturge:ingot_thaumium",
+    "thaumaturge:quicksilver",
+    "thaumaturge:amber"
+  ],
+  "instability": 3,
+  "research": {
+    "entry": "gadomancyawakened:golem_runic_shield"
+  },
+  "result": {
+    "id": "gadomancyawakened:runic_shielding"
+  }
+}

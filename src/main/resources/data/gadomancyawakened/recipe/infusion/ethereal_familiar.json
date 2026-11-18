@@ -1,0 +1,33 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 12
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 18
+    },
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 10
+    }
+  ],
+  "catalyst": "thaumaturge:amulet_mundane",
+  "components": [
+    "thaumaturge:essentia_crystal",
+    "thaumaturge:salis_mundus",
+    "thaumaturge:nitor_yellow",
+    "thaumaturge:essentia_crystal",
+    "thaumaturge:salis_mundus",
+    "thaumaturge:nitor_yellow"
+  ],
+  "instability": 4,
+  "research": {
+    "entry": "gadomancyawakened:ethereal_familiar"
+  },
+  "result": {
+    "id": "gadomancyawakened:ethereal_familiar"
+  }
+}

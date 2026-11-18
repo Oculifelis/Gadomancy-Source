@@ -1,0 +1,14 @@
+{
+  "aspect": "thaumaturge:instrumentum",
+  "interval": 2,
+  "range": 8,
+  "actions": [
+    {
+      "type": "mob_effect",
+      "effect": "minecraft:haste",
+      "amplifier": 0,
+      "add": 7,
+      "cap": 7200
+    }
+  ]
+}

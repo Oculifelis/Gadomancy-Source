@@ -1,0 +1,31 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 2
+    },
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 1
+    }
+  ],
+  "key": {
+    "S": "thaumaturge:stone_arcane",
+    "E": "thaumaturge:eldritch_eye"
+  },
+  "pattern": [
+    "SSS",
+    "SES",
+    "SSS"
+  ],
+  "research": {
+    "entry": "gadomancyawakened:ancient_stones",
+    "stage": 0
+  },
+  "result": {
+    "id": "thaumaturge:stone_ancient",
+    "count": 4
+  },
+  "vis": 20
+}

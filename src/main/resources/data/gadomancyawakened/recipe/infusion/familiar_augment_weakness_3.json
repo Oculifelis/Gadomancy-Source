@@ -1,0 +1,57 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:mortuus",
+      "amount": 42
+    },
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 38
+    },
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 20
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 56
+    },
+    {
+      "aspect": "thaumaturge:vinculum",
+      "amount": 32
+    }
+  ],
+  "catalyst": "thaumaturge:runed_tablet",
+  "components": [
+    "thaumaturge:essentia_crystal",
+    "minecraft:ender_eye",
+    "thaumaturge:crystal_perditio",
+    "thaumaturge:crystal_perditio",
+    "thaumaturge:essentia_crystal",
+    "minecraft:ender_eye",
+    "minecraft:nether_star",
+    "thaumaturge:crystal_perditio",
+    "thaumaturge:essentia_crystal",
+    "minecraft:ender_eye",
+    "thaumaturge:crystal_perditio",
+    "thaumaturge:crystal_perditio",
+    "thaumaturge:essentia_crystal",
+    "minecraft:ender_eye",
+    "minecraft:nether_star",
+    "thaumaturge:crystal_perditio"
+  ],
+  "instability": 10,
+  "research": {
+    "entry": "gadomancyawakened:familiar_weakness"
+  },
+  "result": {
+    "id": "gadomancyawakened:familiar_augment",
+    "components": {
+      "gadomancyawakened:augment": {
+        "augment": "weakness",
+        "level": 3
+      }
+    }
+  }
+}

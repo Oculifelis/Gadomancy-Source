@@ -1,0 +1,10 @@
+{
+  "aspect": "thaumaturge:lux",
+  "interval": 4,
+  "range": 64,
+  "actions": [
+    {
+      "type": "deny_monster_spawns"
+    }
+  ]
+}

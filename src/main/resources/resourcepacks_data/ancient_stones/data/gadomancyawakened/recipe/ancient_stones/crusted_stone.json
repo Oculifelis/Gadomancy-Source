@@ -1,0 +1,36 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 5
+    },
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 5
+    }
+  ],
+  "key": {
+    "G": "thaumaturge:salis_mundus",
+    "C": "minecraft:mossy_cobblestone",
+    "S": "thaumaturge:crystal_perditio"
+  },
+  "pattern": [
+    "GCG",
+    "CSC",
+    "GCG"
+  ],
+  "research": {
+    "entry": "gadomancyawakened:ancient_stones",
+    "stage": 0
+  },
+  "result": {
+    "id": "thaumaturge:eldritch_crust",
+    "count": 4
+  },
+  "vis": 50
+}

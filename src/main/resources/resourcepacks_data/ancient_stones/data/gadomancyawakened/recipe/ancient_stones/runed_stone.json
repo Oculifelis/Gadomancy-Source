@@ -1,0 +1,62 @@
+{
+  "type": "thaumaturge:infusion",
+  "catalyst": {
+    "neoforge:ingredient_type": "neoforge:components",
+    "items": "gadomancyawakened:aura_core",
+    "components": {
+      "gadomancyawakened:core_aspect": "thaumaturge:perditio"
+    }
+  },
+  "instability": 7,
+  "aspects": [
+    {
+      "aspect": "thaumaturge:alienis",
+      "amount": 40
+    },
+    {
+      "aspect": "thaumaturge:vacuos",
+      "amount": 38
+    },
+    {
+      "aspect": "thaumaturge:machina",
+      "amount": 30
+    },
+    {
+      "aspect": "thaumaturge:tenebrae",
+      "amount": 50
+    },
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 20
+    },
+    {
+      "aspect": "thaumaturge:mortuus",
+      "amount": 26
+    },
+    {
+      "aspect": "thaumaturge:permutatio",
+      "amount": 30
+    }
+  ],
+  "components": [
+    "thaumaturge:eldritch_stone_crystal",
+    "thaumaturge:stone_ancient",
+    "thaumaturge:stone_ancient_glyphed",
+    "minecraft:lodestone",
+    "thaumaturge:stone_ancient_glyphed",
+    "thaumaturge:stone_ancient",
+    "thaumaturge:eldritch_stone_crystal",
+    "thaumaturge:stone_ancient",
+    "thaumaturge:stone_ancient_glyphed",
+    "minecraft:lodestone",
+    "thaumaturge:stone_ancient_glyphed",
+    "thaumaturge:stone_ancient"
+  ],
+  "research": {
+    "entry": "gadomancyawakened:ancient_stones"
+  },
+  "result": {
+    "id": "thaumaturge:eldritch_stone",
+    "count": 1
+  }
+}

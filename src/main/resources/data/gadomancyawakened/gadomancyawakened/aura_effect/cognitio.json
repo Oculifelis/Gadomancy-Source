@@ -1,0 +1,12 @@
+{
+  "aspect": "thaumaturge:cognitio",
+  "interval": 40,
+  "range": 8,
+  "actions": [
+    {
+      "type": "knowledge",
+      "chance": 0.025,
+      "category": "thaumaturge:auromancy"
+    }
+  ]
+}

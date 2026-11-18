@@ -1,0 +1,42 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [
+    {
+      "aspect": "thaumaturge:ordo",
+      "amount": 12
+    },
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 12
+    }
+  ],
+  "key": {
+    "W": {
+      "neoforge:ingredient_type": "neoforge:components",
+      "items": "minecraft:potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:weakness"
+        }
+      }
+    },
+    "N": "thaumaturge:nitor_yellow",
+    "P": "thaumaturge:tube",
+    "J": "thaumaturge:jar_normal",
+    "G": "thaumaturge:plank_greatwood",
+    "R": "minecraft:redstone"
+  },
+  "pattern": [
+    "WNW",
+    "PJP",
+    "GRG"
+  ],
+  "research": {
+    "entry": "gadomancyawakened:block_protector",
+    "stage": 0
+  },
+  "result": {
+    "id": "gadomancyawakened:block_protector"
+  },
+  "vis": 60
+}

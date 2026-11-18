@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "gadomancyawakened:item/familiar_augment_range"
+  }
+}

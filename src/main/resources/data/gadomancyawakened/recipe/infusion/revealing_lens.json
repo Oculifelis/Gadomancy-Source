@@ -1,0 +1,25 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:sensus",
+      "amount": 16
+    },
+    {
+      "aspect": "thaumaturge:praecantatio",
+      "amount": 8
+    }
+  ],
+  "catalyst": "thaumaturge:goggles_revealing",
+  "components": [
+    "thaumaturge:salis_mundus",
+    "thaumaturge:salis_mundus"
+  ],
+  "instability": 4,
+  "research": {
+    "entry": "gadomancyawakened:revealer"
+  },
+  "result": {
+    "id": "gadomancyawakened:revealing_lens"
+  }
+}

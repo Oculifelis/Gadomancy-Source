@@ -1,0 +1,79 @@
+{
+  "variants": {
+    "kind=normal,mount=down": {
+      "model": "thaumaturge:block/jar_normal"
+    },
+    "kind=normal,mount=up": {
+      "model": "thaumaturge:block/jar_normal",
+      "x": 180
+    },
+    "kind=normal,mount=north": {
+      "model": "thaumaturge:block/jar_normal",
+      "x": 270
+    },
+    "kind=normal,mount=south": {
+      "model": "thaumaturge:block/jar_normal",
+      "x": 90
+    },
+    "kind=normal,mount=west": {
+      "model": "thaumaturge:block/jar_normal",
+      "x": 90,
+      "y": 90
+    },
+    "kind=normal,mount=east": {
+      "model": "thaumaturge:block/jar_normal",
+      "x": 90,
+      "y": 270
+    },
+    "kind=void,mount=down": {
+      "model": "thaumaturge:block/jar_void"
+    },
+    "kind=void,mount=up": {
+      "model": "thaumaturge:block/jar_void",
+      "x": 180
+    },
+    "kind=void,mount=north": {
+      "model": "thaumaturge:block/jar_void",
+      "x": 270
+    },
+    "kind=void,mount=south": {
+      "model": "thaumaturge:block/jar_void",
+      "x": 90
+    },
+    "kind=void,mount=west": {
+      "model": "thaumaturge:block/jar_void",
+      "x": 90,
+      "y": 90
+    },
+    "kind=void,mount=east": {
+      "model": "thaumaturge:block/jar_void",
+      "x": 90,
+      "y": 270
+    },
+    "kind=remote,mount=down": {
+      "model": "gadomancyawakened:block/remote_jar"
+    },
+    "kind=remote,mount=up": {
+      "model": "gadomancyawakened:block/remote_jar",
+      "x": 180
+    },
+    "kind=remote,mount=north": {
+      "model": "gadomancyawakened:block/remote_jar",
+      "x": 270
+    },
+    "kind=remote,mount=south": {
+      "model": "gadomancyawakened:block/remote_jar",
+      "x": 90
+    },
+    "kind=remote,mount=west": {
+      "model": "gadomancyawakened:block/remote_jar",
+      "x": 90,
+      "y": 90
+    },
+    "kind=remote,mount=east": {
+      "model": "gadomancyawakened:block/remote_jar",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

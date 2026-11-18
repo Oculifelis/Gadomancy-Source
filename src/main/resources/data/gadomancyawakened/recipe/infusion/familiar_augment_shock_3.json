@@ -1,0 +1,53 @@
+{
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "aspect": "thaumaturge:motus",
+      "amount": 40
+    },
+    {
+      "aspect": "thaumaturge:auram",
+      "amount": 28
+    },
+    {
+      "aspect": "thaumaturge:aversio",
+      "amount": 20
+    },
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 36
+    }
+  ],
+  "catalyst": "thaumaturge:runed_tablet",
+  "components": [
+    "thaumaturge:essentia_crystal",
+    "thaumaturge:alumentum",
+    "thaumaturge:crystal_aer",
+    "thaumaturge:alumentum",
+    "thaumaturge:quicksilver",
+    "thaumaturge:alumentum",
+    "minecraft:nether_star",
+    "thaumaturge:alumentum",
+    "thaumaturge:essentia_crystal",
+    "thaumaturge:alumentum",
+    "thaumaturge:crystal_aer",
+    "thaumaturge:alumentum",
+    "thaumaturge:quicksilver",
+    "thaumaturge:alumentum",
+    "minecraft:nether_star",
+    "thaumaturge:alumentum"
+  ],
+  "instability": 8,
+  "research": {
+    "entry": "gadomancyawakened:familiar_shock"
+  },
+  "result": {
+    "id": "gadomancyawakened:familiar_augment",
+    "components": {
+      "gadomancyawakened:augment": {
+        "augment": "shock",
+        "level": 3
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [
+    {
+      "aspect": "thaumaturge:aer",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:terra",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:perditio",
+      "amount": 3
+    },
+    {
+      "aspect": "thaumaturge:ignis",
+      "amount": 3
+    }
+  ],
+  "key": {
+    "G": "minecraft:glowstone_dust",
+    "N": "thaumaturge:nitor_yellow",
+    "S": "thaumaturge:eldritch_crust"
+  },
+  "pattern": [
+    "GNG",
+    "NSN",
+    "GNG"
+  ],
+  "research": {
+    "entry": "gadomancyawakened:ancient_stones",
+    "stage": 0
+  },
+  "result": {
+    "id": "thaumaturge:eldritch_crust_glowing",
+    "count": 3
+  },
+  "vis": 40
+}
