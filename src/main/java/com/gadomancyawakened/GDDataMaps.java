@@ -31,6 +31,19 @@ public final class GDDataMaps {
     public static final DataMapType<Block, CoreSource> AURA_CORE_SOURCE = DataMapType.builder(GadomancyAwakened.id("aura_core_source"),
             Registries.BLOCK, CoreSource.CODEC).build();
 
+    /**
+     * Vis a wand pays to form a multiblock, keyed by the block clicked: the Aura Pylon, the Essentia Compressor and the
+     * Node Manipulator. The Portal Focus entry is the Node Manipulator's cost when a Portal Focus sits on it. A block with
+     * no entry forms for free.
+     */
+    public static final DataMapType<Block, Map<ResourceKey<IAspect>, Integer>> FORM_COST = DataMapType.builder(
+            GadomancyAwakened.id("form_cost"), Registries.BLOCK, CoreSource.AMOUNTS).build();
+
+    public static Map<ResourceKey<IAspect>, Integer> formCost(Block block) {
+        Map<ResourceKey<IAspect>, Integer> cost = block.builtInRegistryHolder().getData(FORM_COST);
+        return cost == null ? Map.of() : cost;
+    }
+
     private GDDataMaps() {
     }
 
@@ -38,6 +51,7 @@ public final class GDDataMaps {
         bus.addListener((RegisterDataMapTypesEvent event) -> {
             event.register(KNOWLEDGE);
             event.register(AURA_CORE_SOURCE);
+            event.register(FORM_COST);
         });
     }
 }

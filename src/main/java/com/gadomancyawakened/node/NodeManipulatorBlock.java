@@ -1,11 +1,11 @@
 package com.gadomancyawakened.node;
 
+import com.gadomancyawakened.GDDataMaps;
 import com.gadomancyawakened.GDRegistry;
 import com.leclowndu93150.thaumaturge.api.aspect.IAspect;
 import com.leclowndu93150.thaumaturge.content.wands.ItemWand;
 import com.leclowndu93150.thaumaturge.content.wands.WandVisHelper;
 import com.mojang.serialization.MapCodec;
-import java.util.HashMap;
 import java.util.Map;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
@@ -39,14 +39,6 @@ import org.jspecify.annotations.Nullable;
 public class NodeManipulatorBlock extends BaseEntityBlock {
     public static final MapCodec<NodeManipulatorBlock> CODEC = simpleCodec(NodeManipulatorBlock::new);
     private static final VoxelShape SHAPE = box(1, 0, 1, 15, 14, 15);
-    private static final Map<ResourceKey<IAspect>, Integer> FORM_COST = new HashMap<>();
-    private static final Map<ResourceKey<IAspect>, Integer> PORTAL_FORM_COST = new HashMap<>();
-
-    static {
-        NodeManipulatorBlockEntity.PRIMALS.forEach(a -> FORM_COST.put(a, 100));
-        NodeManipulatorBlockEntity.PRIMALS.forEach(a -> PORTAL_FORM_COST.put(a, 150));
-    }
-
     public NodeManipulatorBlock(Properties properties) {
         super(properties);
     }
@@ -80,7 +72,8 @@ public class NodeManipulatorBlock extends BaseEntityBlock {
                 player.sendOverlayMessage(Component.translatable("gadomancyawakened.manipulator.incomplete"));
                 return InteractionResult.FAIL;
             }
-            Map<ResourceKey<IAspect>, Integer> cost = level.getBlockState(pos.above()).is(GDRegistry.PORTAL_FOCUS.get()) ? PORTAL_FORM_COST : FORM_COST;
+            Map<ResourceKey<IAspect>, Integer> cost = GDDataMaps.formCost(
+                    level.getBlockState(pos.above()).is(GDRegistry.PORTAL_FOCUS.get()) ? GDRegistry.PORTAL_FOCUS.get() : this);
             if (!WandVisHelper.payCosts(stack, player, cost, false, false)) {
                 player.sendOverlayMessage(Component.translatable("gadomancyawakened.manipulator.no_vis"));
                 return InteractionResult.FAIL;

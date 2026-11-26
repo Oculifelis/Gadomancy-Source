@@ -1,15 +1,12 @@
 package com.gadomancyawakened.machine;
 
+import com.gadomancyawakened.GDDataMaps;
 import com.gadomancyawakened.GDRegistry;
-import com.leclowndu93150.thaumaturge.api.aspect.IAspect;
-import com.leclowndu93150.thaumaturge.api.aspect.TTAspects;
 import com.leclowndu93150.thaumaturge.content.wands.ItemWand;
 import com.leclowndu93150.thaumaturge.content.wands.WandVisHelper;
 import com.mojang.serialization.MapCodec;
-import java.util.Map;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
-import net.minecraft.resources.ResourceKey;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.util.StringRepresentable;
@@ -41,9 +38,6 @@ import org.jspecify.annotations.Nullable;
 public class EssentiaCompressorBlock extends BaseEntityBlock {
     public static final MapCodec<EssentiaCompressorBlock> CODEC = simpleCodec(EssentiaCompressorBlock::new);
     public static final EnumProperty<Part> PART = EnumProperty.create("part", Part.class);
-    /** Vis to form the multiblock, from Gadomancy's {@code costsCompressorMultiblock}. */
-    private static final Map<ResourceKey<IAspect>, Integer> FORM_COST = Map.of(TTAspects.AQUA, 140, TTAspects.TERRA, 80,
-            TTAspects.AER, 150, TTAspects.ORDO, 20, TTAspects.PERDITIO, 140);
     private static final VoxelShape FORMED = box(1, 0, 1, 15, 16, 15);
 
     public EssentiaCompressorBlock(Properties properties) {
@@ -87,7 +81,7 @@ public class EssentiaCompressorBlock extends BaseEntityBlock {
         if (level.isClientSide()) {
             return InteractionResult.SUCCESS;
         }
-        if (!WandVisHelper.payCosts(stack, player, FORM_COST, false, false)) {
+        if (!WandVisHelper.payCosts(stack, player, GDDataMaps.formCost(this), false, false)) {
             player.sendOverlayMessage(Component.translatable("gadomancyawakened.compressor.no_vis"));
             return InteractionResult.FAIL;
         }

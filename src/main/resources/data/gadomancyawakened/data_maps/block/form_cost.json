@@ -1,0 +1,35 @@
+{
+  "values": {
+    "gadomancyawakened:aura_pylon": {
+      "thaumaturge:aer": 150,
+      "thaumaturge:terra": 150,
+      "thaumaturge:ignis": 150,
+      "thaumaturge:aqua": 150,
+      "thaumaturge:ordo": 150,
+      "thaumaturge:perditio": 150
+    },
+    "gadomancyawakened:essentia_compressor": {
+      "thaumaturge:aqua": 140,
+      "thaumaturge:terra": 80,
+      "thaumaturge:aer": 150,
+      "thaumaturge:ordo": 20,
+      "thaumaturge:perditio": 140
+    },
+    "gadomancyawakened:node_manipulator": {
+      "thaumaturge:aer": 100,
+      "thaumaturge:terra": 100,
+      "thaumaturge:ignis": 100,
+      "thaumaturge:aqua": 100,
+      "thaumaturge:ordo": 100,
+      "thaumaturge:perditio": 100
+    },
+    "gadomancyawakened:portal_focus": {
+      "thaumaturge:aer": 150,
+      "thaumaturge:terra": 150,
+      "thaumaturge:ignis": 150,
+      "thaumaturge:aqua": 150,
+      "thaumaturge:ordo": 150,
+      "thaumaturge:perditio": 150
+    }
+  }
+}

@@ -25,6 +25,7 @@ import com.gadomancyawakened.machine.EssentiaCompressorBlock;
 import com.gadomancyawakened.machine.EssentiaCompressorBlockEntity;
 import com.gadomancyawakened.machine.KnowledgeBookBlock;
 import com.gadomancyawakened.machine.KnowledgeBookBlockEntity;
+import com.gadomancyawakened.machine.KnowledgeBookItem;
 import com.gadomancyawakened.machine.InfusionClawBlock;
 import com.gadomancyawakened.machine.InfusionClawBlockEntity;
 import com.gadomancyawakened.node.NodeManipulatorBlock;
@@ -97,8 +98,10 @@ public final class GDRegistry {
     public static final DeferredItem<VoidElementItem> VOID_ELEMENT = item("void_element",
             p -> new VoidElementItem(p.stacksTo(1).rarity(Rarity.EPIC)));
 
-    public static final DeferredBlock<KnowledgeBookBlock> KNOWLEDGE_BOOK = block("knowledge_book", KnowledgeBookBlock::new,
+    public static final DeferredBlock<KnowledgeBookBlock> KNOWLEDGE_BOOK = BLOCKS.registerBlock("knowledge_book", KnowledgeBookBlock::new,
             p -> p.mapColor(MapColor.WOOD).strength(1.0f).sound(SoundType.WOOD).noOcclusion());
+    public static final DeferredItem<KnowledgeBookItem> KNOWLEDGE_BOOK_ITEM = item("knowledge_book",
+            p -> new KnowledgeBookItem(KNOWLEDGE_BOOK.get(), p.useBlockDescriptionPrefix()));
     public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<KnowledgeBookBlockEntity>> KNOWLEDGE_BOOK_BE = BLOCK_ENTITIES.register("knowledge_book",
             () -> new BlockEntityType<>(KnowledgeBookBlockEntity::new, KNOWLEDGE_BOOK.get()));
 

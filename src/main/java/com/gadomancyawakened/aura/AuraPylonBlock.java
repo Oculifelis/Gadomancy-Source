@@ -1,16 +1,13 @@
 package com.gadomancyawakened.aura;
 
+import com.gadomancyawakened.GDDataMaps;
 import com.gadomancyawakened.GDRegistry;
-import com.leclowndu93150.thaumaturge.api.aspect.IAspect;
-import com.leclowndu93150.thaumaturge.api.aspect.TTAspects;
 import com.leclowndu93150.thaumaturge.content.wands.ItemWand;
 import com.leclowndu93150.thaumaturge.content.wands.WandVisHelper;
 import com.mojang.serialization.MapCodec;
 import java.util.Locale;
-import java.util.Map;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
-import net.minecraft.resources.ResourceKey;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.util.StringRepresentable;
@@ -42,8 +39,6 @@ public class AuraPylonBlock extends BaseEntityBlock {
     public static final MapCodec<AuraPylonBlock> CODEC = simpleCodec(AuraPylonBlock::new);
     public static final EnumProperty<Part> PART = EnumProperty.create("part", Part.class);
     private static final VoxelShape SHAPE = box(1, 0, 1, 15, 16, 15);
-    static final Map<ResourceKey<IAspect>, Integer> FORM_COST = Map.of(TTAspects.AER, 150, TTAspects.TERRA, 150,
-            TTAspects.IGNIS, 150, TTAspects.AQUA, 150, TTAspects.ORDO, 150, TTAspects.PERDITIO, 150);
 
     public AuraPylonBlock(Properties properties) {
         super(properties);
@@ -84,7 +79,7 @@ public class AuraPylonBlock extends BaseEntityBlock {
         if (level.isClientSide()) {
             return InteractionResult.SUCCESS;
         }
-        if (!WandVisHelper.payCosts(wand, player, FORM_COST, false, false)) {
+        if (!WandVisHelper.payCosts(wand, player, GDDataMaps.formCost(GDRegistry.AURA_PYLON.get()), false, false)) {
             player.sendOverlayMessage(Component.translatable("gadomancyawakened.pylon.no_vis"));
             return InteractionResult.FAIL;
         }

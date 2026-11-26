@@ -44,6 +44,19 @@ final class SelfTest {
         check(name, loaded.cycle() == c && be.snapshot().equals(loaded.snapshot()), loaded.snapshot());
     }
 
+    /** The shipped Essentia Compressor cost, or the value the test datapack in tools/selftest_datapack sets. */
+    private static void formCost() {
+        java.util.Map<?, Integer> cost = GDDataMaps.formCost(GDRegistry.ESSENTIA_COMPRESSOR.get());
+        Integer ordo = cost.get(com.leclowndu93150.thaumaturge.api.aspect.TTAspects.ORDO);
+        int pylon = GDDataMaps.formCost(GDRegistry.AURA_PYLON.get()).size();
+        if (ordo != null && ordo == 77) {
+            check("form_cost_override", cost.size() == 1, "compressor " + cost + " pylon aspects=" + pylon);
+        } else {
+            check("form_cost_default", ordo != null && ordo == 20 && cost.size() == 5 && pylon == 6,
+                    "compressor " + cost + " pylon aspects=" + pylon + " (test pack not loaded)");
+        }
+    }
+
     private static void run(HolderLookup.Provider registries) {
         try {
             roundTrip(registries, "packager_roundtrip_idle", ArcanePackagerBlockEntity.Cycle.IDLE, 0, 0, 0, false);
@@ -55,6 +68,7 @@ final class SelfTest {
             be.selfTestMenuWrite(999);
             check("packager_menu_write_ignored", before.equals(be.snapshot()) && be.cycle() == ArcanePackagerBlockEntity.Cycle.IDLE,
                     be.snapshot());
+            formCost();
         } catch (Exception ex) {
             GadomancyAwakened.LOG.error("SELFTEST FAIL crashed", ex);
         }
